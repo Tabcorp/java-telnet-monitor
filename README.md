@@ -16,7 +16,7 @@ print the available commands. Also accept `?`
 
 ## Application properties
 
-The service has 3 configurable properties.
+The service has some configurable properties.
 
 ### telnet.service.port
 	
@@ -35,6 +35,12 @@ Default is :  `Welcome!`
 The prompt given to a user when service is ready to accept a command.
 
 Default is : `Ready for action: `
+
+### telnet.service.socket.timeout
+
+The default timeout in milliseconds for the server socket listener.
+
+Default is : `5000`
 
 ## Usage
 
